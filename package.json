@@ -1,0 +1,36 @@
+{
+  "name": "product",
+  "version": "1.0.0",
+  "description": "Microservice for access and control of the products on the database",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "chai-spies": "^1.0.0",
+    "express": "^4.17.1",
+    "istanbul": "^0.4.5",
+    "mongoose": "^5.12.10",
+    "shortid": "^2.2.16"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "mocha ./test/**/*",
+    "coverage": "istanbul cover _mocha -- ./test/* --recursive",
+    "eslint": "eslint src/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cchagas4/mp_product.git"
+  },
+  "author": "Cassia Chagas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cchagas4/mp_product/issues"
+  },
+  "homepage": "https://github.com/cchagas4/mp_product#readme",
+  "devDependencies": {
+    "mocha": "^8.4.0",
+    "nodemon": "^2.0.7"
+  },
+  "keywords": []
+}
